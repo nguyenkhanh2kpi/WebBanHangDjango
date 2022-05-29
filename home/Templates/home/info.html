@@ -1,0 +1,62 @@
+<title>Giới thiệu</title>
+{% extends 'base.html' %} {% block content%}{% load static %}
+<link href="{% static 'styles/intro.css'%}" rel="stylesheet" type="text/css">
+<link href="{% static 'fontawesomefree/css/all.min.css' %}" rel="stylesheet" type="text/css">
+<div class="containerBanner center">
+    <div class="box">
+        <div class="text">
+            <li><H2>LẬP TRÌNH WEB NÔNG SẢN</H3></li>
+            <li><h4>- Nhóm 12 -</h4></li>
+        </div>
+    </div>
+</div>
+
+<div id="container-center">
+    <div class="box-info center">
+        <h1>GIỚI THIỆU</h1>
+    </div>
+    <div class="boxtext">
+        <p>
+            - Nông sản nhóm 12 là hành trình của những bạn trẻ nhiệt huyết, đến từ những miền quê khác nhau, kiên trì dấn thân để cùng nhau góp phần cải thiện chuỗi cung ứng nông sản Việt và mang thực phẩm an tâm đến cho cộng đồng.
+        </p>
+    </div>
+    <div class="line"></div>
+    <div class="listfriend">
+        <h3>Thành viên trong nhóm</h3>
+        <div class="list center">
+            <div class="boxfriend">
+                <div class="avatar">
+                    <img src="{% static 'images/anngo.JPG'%}" alt="" class="img-ava" width="100" height="100">
+                </div>
+                <div class="box_content">
+                    <h3 class="title">Ngô Thừa Ân</h3>
+                </div>
+            </div>
+            <div class="boxfriend">
+                <div class="avatar">
+                    <img src="{% static 'images/khanhnguyen.png'%}" alt="" class="img-ava" width="100" height="100">
+                </div>
+                <div class="box_content">
+                    <h3 class="title">Nguyễn Lê Quốc Khánh</h3>
+                </div>
+            </div>
+            <div class="boxfriend">
+                <div class="avatar">
+                    <img src="{% static 'images/loctri.png'%}" alt="" class="img-ava" width="100" height="100">
+                </div>
+                <div class="box_content">
+                    <h3 class="title">Trì Hoài Lộc</h3>
+                </div>
+            </div>
+            <div class="boxfriend">
+                <div class="avatar">
+                    <img src="{% static 'images/quannguyen.png'%}" alt="" class="img-ava" width="100" height="100">
+                </div>
+                <div class="box_content">
+                    <h3 class="title">Nguyễn Vũ Minh Quân</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock%}
